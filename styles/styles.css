@@ -38,7 +38,7 @@ h1 {
 }
 
 img {
-  display: block;
+  display: inline-flex;
   margin: 0 auto;
 }
 
