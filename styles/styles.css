@@ -8,8 +8,13 @@ p{
 	color:purple;
 }
 
+.p{
+  border:none;
+}
+
 #mainquote{
-	color:orange;
+	color:purple;
+  font-weight: bold;
 }
 
 html {
@@ -43,3 +48,33 @@ img {
   margin: 0 auto;
 }
 
+#apple-stock-chart {
+  font: 10px sans-serif;
+}
+
+#apple-stock-chart .axis path,
+#apple-stock-chart .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#apple-stock-chart .x.axis path {
+  display: none;
+}
+
+#apple-stock-chart .line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+#apple-stock-chart .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+#apple-stock0chart .focus circle {
+  fill: none;
+  stroke: steelblue;
+}
